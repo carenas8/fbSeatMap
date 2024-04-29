@@ -19,11 +19,13 @@
             <a href="#" onclick="openLogin()" id="setup">SETUP</a>
             <div id="logBox" style="display:none;">
                 <form id="login">
-                    <label for="passcode">Enter Passcode <input id="passcode" type="password" /></label>
-                    <input type="submit" value="Login" id="logSub">
+                    <label for="passcode" >Enter Passcode <input id="passcode" type="text" onchange="showSub()"/></label>
+                    
                 </form>
+                <a href="setup.html" id="logSub" style="display:none;" >Submit</a>
             </div>
         </nav>
     </header>
+
   </body>
 </html>

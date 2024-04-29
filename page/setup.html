@@ -18,5 +18,30 @@
             <a href="main.html">HOME</a>            
         </nav>
     </header>
+    <div class="settings">
+        <H2>Room Settings</H2>
+        <form id="roomSettings">
+            <div class="settingGroup" id="showBased">
+                <label for="density">Density Code
+                    <select id="density" name="density">
+                        <option value="">(select one)</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="special">Special</option>
+                    </select>
+                </label>
+            </div>
+            <div class="settingGroup" id="clubData">
+                <H3>Club Setup</H3>
+                <label for="rowStart">Rows Start At:
+                    <input id="rowStart" type="number"/>
+                </label>
+                <br>
+                <label for="sections">Number of Sections <input id="sections" type="number"/></label> 
+            </div>
+        </form>
+    </div>
+    </div>
   </body>
 </html>

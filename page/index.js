@@ -8,11 +8,13 @@ function openLogin() {
 }
 
 const setupSubmit = document.getElementById("logSub");
+const login = document.getElementById("login");
+const entered = login.passcode.value;
 
-setupSubmit.addEventListener("click", (e) => {
-    e.preventDefault();
-    const entered = document.getElementById("passcode");
-    if(entered === "06042") {
-       window.location.assign('setup.html');
+
+function showSub() {
+    if(entered = "crab") {
+        setupSubmit.style.display= "block";
     } 
-})
+}
+
